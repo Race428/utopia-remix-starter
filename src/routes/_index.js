@@ -24,7 +24,7 @@ export default function Index() {
         transition: 'all 3s ease-out',
       }}
     >
-      <Title title={'BBeffore I Go'} />
+      <Title title='BBeffore I Go' />
       <div
         style={{
           background: '#dd4a76',
@@ -52,7 +52,7 @@ export default function Index() {
           }}
           to='/posts'
         >
-          Things I want to do
+          Hi race here
         </Link>
       </div>
     </div>

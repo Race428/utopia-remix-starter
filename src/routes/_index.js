@@ -17,24 +17,26 @@ export default function Index() {
         zIndex: '100',
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center',
+        alignItems: 'flex-start',
         padding: '0px 0px 25px',
         gap: 5,
         boxShadow: '0px 2px 33px var(--yellow)',
         transition: 'all 3s ease-out',
+        justifyContent: 'flex-start',
       }}
     >
       <Title title='BBeffore I Go !' />
       <div
         style={{
           background: '#dd4a76',
-          width: '80%',
+          width: '31.8%',
           height: 80,
           display: 'flex',
-          flexDirection: 'row',
+          flexDirection: 'column',
           alignItems: 'center',
-          justifyContent: 'center',
+          justifyContent: 'space-between',
           borderRadius: 100,
+          backgroundColor: 'rgb(0, 255, 149, 1)',
         }}
       >
         <Link
@@ -42,8 +44,8 @@ export default function Index() {
             wordBreak: 'break-word',
             color: 'var(--off-white)',
             contain: 'layout',
-            width: 'max-content',
-            height: 'max-content',
+            width: 206,
+            height: 32,
             fontWeight: 700,
             fontFamily: 'var(--secondary)',
             fontSize: '28px',
@@ -52,7 +54,7 @@ export default function Index() {
           }}
           to='/posts'
         >
-          Hi race here
+          Hi Jaydon!
         </Link>
       </div>
     </div>
